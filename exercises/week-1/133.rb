@@ -30,3 +30,25 @@
     
     #...9 At some point, 7 is NOT less than 6
 
+# QUESTION 2
+# Finish annotating the code below.
+# Then run the code to see if the output matches your annotation.
+number = 0             # 1
+while 2 > number       # 2 6 8
+  if number < 1        # 3 7
+    puts number        # 4
+  end
+  number = number + 1  # 5
+end
+puts "Done!"           #      9
+
+# 1: number is 0
+# 2: (2 is greater than 0, continue)
+# 3: ( 0 is less than 1, continue)
+# 4:  print 0
+# 5: number == 1
+# 6: (2 is grater than 1, continue)
+# 7: 2 is NOT less than 1, false, end condition 
+# 8: 2 is NOT grater than 2, end loop
+# 9: print'done'
+# 10: 
