@@ -16,5 +16,5 @@ pp names                               # 6
 
 # QUESTION 2
 # Find and fix the mistakes in the code below.
-items = [3, 2, 3, 2]
+items = [3, 2, 3, 2]    #added a comma
 pp items

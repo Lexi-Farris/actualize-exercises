@@ -4,7 +4,7 @@
 
 index = 0
 dog_breeds = ["basenji", "blue healer" , "labradoodle", "beagle", "collie", "shepards"]
-    while index < dog_breeds.length
+    while index < dog_breeds.length     #if the  index is less than the number of items in the array, follow the steps below
         puts dog_breeds[index].swapcase
         index = index + 1
     end
