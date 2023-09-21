@@ -16,5 +16,5 @@ class Kitty
     end
 end
 
-Siren = Kitty.new("Siren", "Siamese", 5)
-pp Siren
+siren = Kitty.new("Siren", "Siamese", 5)
+pp siren

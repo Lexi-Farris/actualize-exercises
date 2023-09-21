@@ -4,23 +4,23 @@
 # Demonstrate how those methods work.
 
 class Song      # Creating a brand new class. Always make sure first letter has capital
-    def initialize(title_input, artist_input, lyrics_input)
-        @title = title_input
-        @artist = artist_input
+  def initialize(title_input, artist_input, lyrics_input)
+    @title = title_input
+    @artist = artist_input
         @lyrics = lyrics_input
-    end
+  end
 
-    def song_title      #new method being created for class so the title can be printed
+  def song_title      #new method being created for class so the title can be printed
     return  @title
-    end
+  end
 
-    def artist_name      #new method being created for class so the artist name can be printed
-        return  @artist
-        end
+  def artist_name      #new method being created for class so the artist name can be printed
+    return  @artist
+  end
 
-    def lyrics_of_song      #new method being created for class so lyrics can be retrieved 
-        return  @lyrics
-        end    
+  def lyrics_of_song      #new method being created for class so lyrics can be retrieved 
+    return  @lyrics
+  end    
 
 end
 
@@ -35,15 +35,16 @@ puts play_on_repeat.artist_name
 # The following code has several mistakes that cause it to crash and not run properly.
 # Fix the mistakes to make sure the code runs properly.
 class Person
-    def initialize(input_name, input_age, input_occupation)
-        @name = input_name
-        @age = input_age
-        @occupation = input_occupation
-    end
+  def initialize(input_name, input_age, input_occupation)
+    @name = input_name
+    @age = input_age
+    @occupation = input_occupation
+  end
 
-    def get_name
+  def get_name
     return @name    #needs to return the @ value
-    end
+  end
+  
 end
 
 person1 = Person.new("Shawn", 42, "accountant")

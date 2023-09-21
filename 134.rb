@@ -5,15 +5,16 @@
 puts "Welcome to the numbers game! Choose a number to begin."
 number = rand(1...10)
 
-while
-    user_ans = gets.chomp.to_i 
+while user_ans = gets.chomp.to_i 
     if user_ans > number
-        puts "Try again... The magic number is smaller than that"
+      puts "Try again... The magic number is smaller than that"
     elsif user_ans < number
-        puts "Try again... The magic number is bigger than that"
-    else user_ans = number
-        puts "WOHOHOHOHO You guessed the magical number!!"
-        break
+      puts "Try again... The magic number is bigger than that"
+    elsif user_ans = number
+      puts "WOHOHOHOHO You guessed the magical number!!"
+    break
+        
+    
     end
 end
 

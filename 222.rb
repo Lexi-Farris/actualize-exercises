@@ -16,10 +16,11 @@ end
 # QUESTION 2
 # Fix the indentation and the errors with the code below.
 x = 1000
-    if x < 5
-        puts 0
-    elsif x < 10
-        puts 1
-    else x < 100
-        puts "no"
-    end 
+
+if x < 5
+  puts 0
+elsif x < 10
+  puts 1
+elsif x < 100
+  puts "no"
+end 

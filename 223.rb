@@ -28,5 +28,4 @@ p y                   #8
 x = 5
 if 0 <= x && x <= 10
     puts "The variable x is between 0 and 10."
-else
 end
