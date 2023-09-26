@@ -15,10 +15,10 @@
 =begin
 1 Ask the user to enter a single word. ✅
   >convert that word to an array using .split method ✅
-2 Remove the first letter from the word
+2 Remove the first letter from the word🚫
     >Use a while loop.
-    >While the length of the array is shorter than the index, remove the letter in the 0 index position
-    > Add that letter in index 0 position to the end of the array 
+    >While the length of the array is shorter than the index, isolate the letter in the 0 index position✅
+    > Add that letter to the end of the array✅
 3 Add 'ay' to the end of the word  
 4. Use .join to change the array back into a string
 =end
@@ -31,9 +31,16 @@ latin_array = atinlay.split(//)
 
 index = 0
 
-while latin_array.length > index 
-  split = latin_array.last
-index +=1
-end
+split = latin_array[0]      #split = a string
+split2= latin_array.push(split) #adds the t to the end
+split3= latin_array.shift 
+split4= latin_array
+split5= latin_array.push("ay")
+split6 = latin_array
+split7= latin_array.join
 
-pp split
+
+
+
+pp split7
+
