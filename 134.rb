@@ -10,7 +10,7 @@ while user_ans = gets.chomp.to_i
       puts "Try again... The magic number is smaller than that"
     elsif user_ans < number
       puts "Try again... The magic number is bigger than that"
-    elsif user_ans = number
+    elsif user_ans == number
       puts "WOHOHOHOHO You guessed the magical number!!"
     break
         
@@ -29,7 +29,7 @@ while index < 100
   puts "What is your name?"  
   name = gets.chomp
   if name != "Bob" 
-  else   name == "Bob"
+  elsif   name == "Bob"
     break
   end
   index = index + 1

@@ -4,12 +4,9 @@
 
 year = 1980
 
-while year > 1979
+while year < 2021
  puts year
  year = year + 1
-  if year > 2021
-   break
-  end
 end
 
 # QUESTION 2
