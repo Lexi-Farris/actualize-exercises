@@ -25,22 +25,19 @@
 
 puts "Enter a word to see what it would be in pig latin."
 
-atinlay = "text_here"
+atinlay = gets.chomp
 
 latin_array = atinlay.split(//)
 
 index = 0
 
-split = latin_array[0]      #split = a string
-split2= latin_array.push(split) #adds the t to the end
-split3= latin_array.shift 
-split4= latin_array
+split = latin_array[0]      #split = a string | isolates the first item in the array
+split2= latin_array.push(split) #adds the "t" to the end
+split3= latin_array.shift #removes item in the first index
+#split4= latin_array
 split5= latin_array.push("ay")
-split6 = latin_array
-split7= latin_array.join
-
-
-
+#split6 = latin_array
+split7= latin_array.join #returns a string 
 
 pp split7
 

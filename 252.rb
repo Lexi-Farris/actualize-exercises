@@ -4,22 +4,12 @@
 # (Note: you do not need to make a custom class for this exercise, just a method)
 
 
-
-print "Enter 4 numbers"
-number1 = gets.chomp.to_i
-number2 = gets.chomp.to_i
-number3 = gets.chomp.to_i
-number4 = gets.chomp.to_i
-
-
-
-def add_four
-  number1 + number2 + number3 + number4
+def add_four (number1,number2,number3,number4)
+  sum = number1 + number2 + number3 + number4
 end  
 
+pp add_four(3432,23432,424234,234)
 
-
-# I am unsure what the question is asking without creating classes....
 
 # QUESTION 2
 # Write a class called Shoe that stores attributes for name, color, and price.

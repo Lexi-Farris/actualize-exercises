@@ -35,10 +35,12 @@ people = [
    }
 ]
 
-number = 0
+index = 0
 
-while people.length > 3
-  number = number + 1
+while index < people.length
+  person = people[index]["hobbies"]
+  puts person
+index += 1
 end
 
-pp people[number]["hobbies"]
+

@@ -15,13 +15,13 @@ puts happy + y + basenji
 # (be sure to leave the special characters in the valid variable names alone).
 
 bob7 = 50 
-#7bob = 50 
-# bob@ = 50
-# @bob = 50 not valid
-bob_ = 50
+#7bob = 50 not valid
+#bob@ = 50 not valid
+#@bob = 50 not valid
+bob_ = 50 
 _bob = 50
-# bob$ = 50
-# $bob = 50 not valid
+#bob$ = 50 not valid
+#$bob = 50 not valid
 
 
 puts bob7 + bob_ + _bob
