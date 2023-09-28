@@ -13,7 +13,7 @@
 2. count the number of times each number appears in the array 
   > get the strings from the array through array[index]
   > create code that == nil so that numbers can be counted & catologued
-  > if number is == nil, count of the number should be set to 1
+  > if number is != nil, count of the number should be set to 1
   > if nil is NOT found,number should go up by 1
 
 3.remove any numbers that appear more than once
@@ -22,8 +22,22 @@
 =end
 duplicates ={}
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
+index = 0
+
+while index <numbers.length
+  number = numbers[index] # stores the value of a single number from the array
+    if duplicates[number] ==nil  # if the empty  array doesn't contain the number (index position), add it!
+      duplicates[number] = 1 #sets empty array value to 1
+    else 
+      duplicates[number] = duplicates[number] + 1 # if array contains the number, add it to the empty array and increase count by 1
+    end
+  index +=1
+end
+
+p "There are #{duplicates[4]} #4's in the numbers"
 
 
+# This was very difficult. I would NOT have been able to do this w/o the video & steps in it. 
 
 
 
