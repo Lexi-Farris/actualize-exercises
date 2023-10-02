@@ -6,19 +6,32 @@
 
 letter_points = {'a'=> 1, 'b'=> 3, 'c'=> 3, 'd'=> 2, 'e'=> 1, 'f'=> 4, 'g'=> 2, 'h'=> 4, 'i'=> 1, 'j'=> 8, 'k'=> 5, 'l'=> 1, 'm'=> 3, 'n'=> 1, 'o'=> 1, 'p'=> 3, 'q'=> 10, 'r'=> 1, 's'=> 1, 't'=> 1, 'u'=> 1, 'v'=> 4, 'w'=> 4, 'x'=> 8, 'y'=> 4, 'z'=> 10}
 
+puts "Enter a word to get started"
 user_input = gets.chomp
 downcased_response = user_input.downcase
 scrabble = downcased_response.split(//) #array for the user input
 index =  0
 scrabble_points = []
 
-
+# #USING .SUM METHOD
 while scrabble.length > index
   letter = scrabble[index]
-  total_points = scrabble_points.push(letter_points[letter]) #new array of just numbers
+  total_points =  scrabble_points.push(letter_points[letter]) #new array of just numbers
 index +=1
 end
 
 p total_points.sum
 
-# i had to google how to sum an array. I don't know how to do this using a nested while loop
+#w/O USING .SUM
+user_input = 'apple'
+user_array = user_input.split(//)
+sum = 0
+index = 0
+
+while index < user_array.length
+  letter = user_array[index] 
+  sum = sum + letter_points[letter]
+  index = index + 1
+end
+
+p sum 
