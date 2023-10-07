@@ -130,6 +130,19 @@ end
 
 p prod
 
+# create array with strings that include a "t"
+
+halloweens = ["tombstone", "witch", "witches brew", "scarecrow"]
+scary = []
+
+halloweens.each do |halloween|
+  if halloween.include?("t")
+   scary = scary.push(halloween)
+  end
+end
+
+p scary
+
 =end
 
 # Use nested loops with an array of numbers to compute a new array containing the first two numbers (from the original array) that add up to the number 10. If there are no two numbers that add up to 10, return false.

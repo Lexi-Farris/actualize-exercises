@@ -7,13 +7,22 @@
 1. Create hash that breaks down code 1 ==> I and so on
 2. hash should return the value when key is given
 3. Write a method with conditional that takes in a number. If it is a 5 then turn it into a V
+  > loop through the hash to find the correc key
+  > call the key
+  > return the value 
 4. Write a method that takes in a number and returns "I" times the number (3 => "III")
+5. Count the III s.
+6. Every 5 Is would be V, event 10 would be XX
 
 =end
 
-n = 5
+i = 0 
+num  = 1
 
-if n == 5
-  puts "V"
+converter = {1 => "I", 2 => "II"}
+
+if num == num
+  p converter[num] * "I"
+
 end
 
