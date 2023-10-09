@@ -37,7 +37,6 @@ end
 p "There are #{duplicates[4]} #4's in the numbers"
 
 
-# This was very difficult. I would NOT have been able to do this w/o the video & steps in it. 
 
 
 
