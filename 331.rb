@@ -16,7 +16,7 @@ index = 0
 while 
   numbers.length > index
   index2 =0
-  while index2 < numbers[index].length #checks length of items inthe INDIVIDUAL numbers array (in the pairs)
+  while index2 < numbers[index].length #checks length of items in the INDIVIDUAL numbers array (in the pairs)
     combo << numbers[index][index2] #push the results into a new array
   index2 +=1 #adds 1 to inner loop
   end
