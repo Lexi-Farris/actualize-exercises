@@ -1,4 +1,4 @@
-=begin
+
 # # Start with an array of strings and create a new array with each string upcased.
 # # For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
 
@@ -143,7 +143,7 @@ end
 
 p scary
 
-=end
+
 
 # Use nested loops with an array of numbers to compute a new array containing the first two numbers (from the original array) that add up to the number 10. If there are no two numbers that add up to 10, return false.
 # For example, [2, 5, 3, 1, 0, 7, 11] becomes [3, 7].
@@ -177,3 +177,26 @@ end
 
 p base_ten
 
+ 
+
+# Write a method that takes in a string and returns the first letter of the string. Then run the method and print the result.
+
+def first_letter(word)    #define the method name. define the parameters
+  return word[0]          # what is going to happen here?
+end
+
+p first_letter("cow")     #call the method and pass the argument into the parameter
+
+
+
+#Write a method that takes in a number and returns the number times itself. Then run the method and print the result.
+
+def squared(number)
+  number * number
+end
+
+pp squared(10)
+
+
+
+# Write a method that takes in a string and returns the string repeated 5 times. Then run the method and print the result.

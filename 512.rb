@@ -4,3 +4,6 @@
 
 person = { name: "Shawn", age: 25 }
 
+
+increase_age = person[:age] + 1
+

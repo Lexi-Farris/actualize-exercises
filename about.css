@@ -1,0 +1,52 @@
+h1, h2 { 
+  
+  color: rgb(70, 21, 21);
+
+}
+
+body  { 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(142, 132, 118);
+}
+
+a {
+  border: 2px solid #8B4513; /* Dark brown border */
+  background-color: transparent; /* No fill (transparent) */
+  color: black; /* Default text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+
+a:hover {
+  background-color: #8B4513; /* Inverted color as fill on hover */
+  color: #D2B48C; /* Light brown text color on hover */
+}
+
+
+header {
+ 
+    background-image: url('https://images.pexels.com/photos/751374/pexels-photo-751374.jpeg');
+    background-size: cover; /* Adjust the background size to cover the entire block */
+    padding: 20px; /* Add padding to create space around the text */
+    margin: 0 auto;
+    background-size: 100vw auto; /* 100% of viewport width for the image */
+  }
+  
+header {
+    color: white; /* Text color */
+  }
+
+  main {
+    max-width: 50em;
+    margin: 0 auto;
+
+  }
+
+.hobbies{
+  padding: 20px; /* Add padding to create space around the text */
+  margin: 0 auto;
+  color: rgb(86, 23, 23);
+
+}
