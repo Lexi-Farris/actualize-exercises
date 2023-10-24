@@ -20,14 +20,15 @@
 
 
 =end
-duplicates ={}
+duplicates ={}        #this is a hash
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
+
 index = 0
 
 while index <numbers.length
   number = numbers[index] # stores the value of a single number from the array
-    if duplicates[number] ==nil  # if the empty  array doesn't contain the number (index position), add it!
-      duplicates[number] = 1 #sets empty array value to 1
+    if duplicates[number] ==nil  # if the empty  array doesn't contain the number (index position)
+      duplicates[number] = 1 #sets the value of the key in the hash to 1
     else 
       duplicates[number] = duplicates[number] + 1 # if array contains the number, add it to the empty array and increase count by 1
     end

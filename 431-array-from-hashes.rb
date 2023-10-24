@@ -13,10 +13,10 @@ bojak_characters = [
 i= 0
 animals = []
 
-while i < bojak_characters.length
+while i < bojak_characters.length #length of array; this has 4 hashes
   animal= bojak_characters[i][:species] #return a string value
   if animal.length < 4
-     animals.push(animal)
+     animals.push(bojak_characters[i])
   end
   i +=1
 end
@@ -26,13 +26,13 @@ p animals
 #using .each
 
 i= 0
-animals = []
+anymals = []
 
 bojak_characters.each do |bojak_character|
-   animal= bojak_characters[i][:species] #return a string value
-   if animal.length < 4
-      animals.push(animal)
-   end
+   anymal= bojak_character[:species] #return a string value
+    if anymal.length < 4
+      anymals << bojak_character #shovels in indiv hash from array
+    end
 end
 
-p animals
+p anymals
