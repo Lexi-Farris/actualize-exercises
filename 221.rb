@@ -7,13 +7,15 @@
 
 digits=[3,6,9]
 index =0
+digi= []
 
-while index >= digits.length 
-    digits[index] * 3
+while index < digits.length 
+    x= digits[index] * 3
+        digi.push(x)
     index =index + 1
 end
 
-puts digits
+pp digi
 
 # I looked over the materials for arrays an hour or so before starting this and was excited that I didn't need my references to get the answer
 
